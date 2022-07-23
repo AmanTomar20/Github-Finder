@@ -23,7 +23,7 @@ const githubReducer=(state, action)=>{
                 users: [],
                 loading: false
             }
-        case 'GET_USER_AND_REPOS':
+        case 'GET_USER_REPOS':
             return{
                 ...state,
                 repos:action.payload.repos,
